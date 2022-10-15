@@ -1,40 +1,37 @@
-// UTILS
-@import "./utils/_vars";
-@import "./utils/_reset";
+:root {
+  /* color */
+  --primary-text-color: #131313;
+  --secondary-text-color: #fcfcfc;
 
-// COMPONENTS
-@import "./components/_visually-hidden";
-@import "./components/_sample";
-@import "./components/_logo";
-@import "./layout/_menu";
+  --accent-color: #f8d24e;
+  --primary-bg-color: #84a178;
+  --secondary-bg-color: #f5f5f5;
 
-// MIXINS
-@import "./components/_mixins";
+  --products-color1: #aec6a5;
+  --products-color2: #efd478;
+  --products-color3: #d6936d;
+  /* font */
+  --main-font: "Montserrat", sans-serif;
+  --secondary-font: "Seymour One", sans-serif;
 
-// HEADER
-@import "./layout/_header";
+  /* animation */
+  --cubik--: cubic-bezier(0.4, 0, 0.2, 1);
+  --timing--: 250ms;
+}
 
-// HERO SECTION
-@import "./layout/_hero";
+// RESET
 
-// IDEOLOGY SECTION
-@import "./layout/_ideology";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
 
-// IMAGES SECTION
-@import "./layout/_images-section";
-
-// TEAM SECTION
-@import "./layout/_team";
-
-// CLIENTS SECTION
-@import "./layout/_clients";
-
-// FOOTER
-@import "./layout/_footer";
-@import "./layout/_footer-subscribe";
-
-// PORTFOLIO 
-@import "./layout/_portfolio-items";
-
-// MODAL WINDOW
-@import "./layout/_modal-window";
+img {
+  display: block;
+}
